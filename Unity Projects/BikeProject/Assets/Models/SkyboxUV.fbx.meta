@@ -1,77 +1,24 @@
 fileFormatVersion: 2
-guid: 863fb3a621d7a7748b9a281c8ac750b9
+guid: e96dd6279f973254cb7114ca7951a152
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: AxelFront
-    100002: back
-    100004: Body
-    100006: bottom
-    100008: DongleL
-    100010: DongleR
-    100012: ForkSteering
-    100014: PipeBottom
-    100016: PipeTop
-    100018: Throttle
-    100020: TireFront
-    100022: TireRear
-    100024: //RootNode
-    400000: AxelFront
-    400002: back
-    400004: Body
-    400006: bottom
-    400008: DongleL
-    400010: DongleR
-    400012: ForkSteering
-    400014: PipeBottom
-    400016: PipeTop
-    400018: Throttle
-    400020: TireFront
-    400022: TireRear
-    400024: //RootNode
-    2000000: back
-    2000002: bottom
+    100000: //RootNode
+    400000: //RootNode
     2100000: lambert1
-    2300000: AxelFront
-    2300002: Body
-    2300004: DongleL
-    2300006: DongleR
-    2300008: ForkSteering
-    2300010: PipeBottom
-    2300012: PipeTop
-    2300014: Throttle
-    2300016: TireFront
-    2300018: TireRear
-    3300000: AxelFront
-    3300002: Body
-    3300004: DongleL
-    3300006: DongleR
-    3300008: ForkSteering
-    3300010: PipeBottom
-    3300012: PipeTop
-    3300014: Throttle
-    3300016: TireFront
-    3300018: TireRear
-    4300000: Body
-    4300002: TireRear
-    4300004: ForkSteering
-    4300006: TireFront
-    4300008: DongleL
-    4300010: DongleR
-    4300012: AxelFront
-    4300014: Throttle
-    4300016: PipeBottom
-    4300018: PipeTop
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: pCube1
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: lambert1
-    second: {fileID: 2100000, guid: 3cd6049cce759f94a9a36c025994acf8, type: 2}
+    second: {fileID: 2100000, guid: 5bd01f340a2dd7545914548dd88d387d, type: 2}
   materials:
     importMaterials: 1
-    materialName: 1
-    materialSearch: 2
+    materialName: 0
+    materialSearch: 1
     materialLocation: 1
   animations:
     legacyGenerateAnimations: 4

@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: d56f49021096618439147240b8a96011
+  productGUID: faed85ce88a2e3643baba854855e2e98
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: BikeSpot
+  productName: BikeProject
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -662,8 +662,8 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 0d2d78ba-ada4-4126-8a43-fab12a8de49d
-  projectName: BikeSpot
+  cloudProjectId: 23aa09ff-e01e-4ac4-96e6-c7fde4720c1f
+  projectName: BikeProject
   organizationId: weirdistbuilds
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
