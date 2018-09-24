@@ -311,7 +311,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 282840810}
-  m_LocalRotation: {x: 0.01580674, y: -0.7180762, z: 0.01631764, w: 0.3726956}
+  m_LocalRotation: {x: 0.01580674, y: -0.7180762, z: 0.01631764, w: 0.37075645}
   m_LocalPosition: {x: 0.49625927, y: -0.017847573, z: 0.015788794}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -771,6 +771,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 359.3251, y: -0.00001760768, z: -0.000005791134}
+--- !u!114 &661146568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c011637fb4c894c56a9178092966b5ac, type: 3}
+  m_Name: 039e28c5-0397-4783-9012-f0dde1b44ffe
+  m_EditorClassIdentifier: 
+  m_DisplayName: Animation
+  m_Id: 4cfb23f8-02bf-417c-a1a0-6e351b28e589
+  gameObject: {fileID: 0}
+  enabled: 0
+  recursive: 1
+  fold: 1
+  bindingTypeName: []
 --- !u!1 &713762747
 GameObject:
   m_ObjectHideFlags: 0
@@ -1259,6 +1277,24 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1047800306}
   m_Mesh: {fileID: 4300008, guid: 1162139e8f6a0c04f9afacfc77181d36, type: 3}
+--- !u!114 &1194861844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c011637fb4c894c56a9178092966b5ac, type: 3}
+  m_Name: 6b4b2132-eda7-466c-9d6e-45d88d52a174
+  m_EditorClassIdentifier: 
+  m_DisplayName: Animation
+  m_Id: 786ae193-202c-499f-8e87-0ac9e829896c
+  gameObject: {fileID: 0}
+  enabled: 0
+  recursive: 1
+  fold: 1
+  bindingTypeName: []
 --- !u!1 &1202892597
 GameObject:
   m_ObjectHideFlags: 0
@@ -1475,6 +1511,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Settings:
   - {fileID: 1875243782}
+  - {fileID: 661146568}
+  - {fileID: 1194861844}
+  - {fileID: 2012835901}
 --- !u!1 &1295083792
 GameObject:
   m_ObjectHideFlags: 0
@@ -2282,6 +2321,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_DisplayName: Animation
   m_Id: 0e779bc1-75f7-44f9-ab25-9cedc050d624
+  gameObject: {fileID: 0}
+  enabled: 0
+  recursive: 1
+  fold: 1
+  bindingTypeName: []
+--- !u!114 &2012835901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c011637fb4c894c56a9178092966b5ac, type: 3}
+  m_Name: c5c08278-ea7b-409c-be40-2be68b5e9dda
+  m_EditorClassIdentifier: 
+  m_DisplayName: Animation
+  m_Id: 9a939206-43fb-4e1c-904a-e1e6c663078b
   gameObject: {fileID: 0}
   enabled: 0
   recursive: 1

@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0205cb8957891b44b142689caa23987, type: 3}
   m_Name: RecorderWindowSettings
   m_EditorClassIdentifier: 
-  m_Settings: {fileID: 114536483729520104}
---- !u!114 &114536483729520104
+  m_Settings: {fileID: 114018921487074430}
+--- !u!114 &114018921487074430
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -24,16 +24,16 @@ MonoBehaviour:
   m_Name: Recorder Settings
   m_EditorClassIdentifier: 
   m_AssetID: b9929c11cbb36894f90a78a641c673b4
-  m_CaptureEveryNthFrame: 3
+  m_CaptureEveryNthFrame: 1
   m_FrameRateMode: 1
   m_FrameRate: 24
   m_FrameRateExact: 8
-  m_StartFrame: 1
-  m_EndFrame: 3000
+  m_StartFrame: 0
+  m_EndFrame: 10
   m_StartTime: 0
   m_EndTime: 49
   m_DurationMode: 3
-  m_SynchFrameRate: 1
+  m_SynchFrameRate: 0
   m_BaseFileName:
     m_Pattern: image_<0000>.<ext>
   m_DestinationPath:
@@ -41,12 +41,12 @@ MonoBehaviour:
     m_leaf: Recordings
   m_InputsSettings:
     m_InputsSettingsAssets:
-    - {fileID: 114923721843204344}
+    - {fileID: 114613804276712846}
     ownerRecorderSettingsAssetId: b9929c11cbb36894f90a78a641c673b4
   m_RecorderTypeName: UnityEngine.Recorder.ImageRecorder, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   m_OutputFormat: 0
---- !u!114 &114923721843204344
+--- !u!114 &114613804276712846
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -55,11 +55,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d935bf7a4fcf66488738bda5536c1cb, type: 3}
-  m_Name: 4ea0b289-5bd2-4024-9fd9-ff37ac7f8b2b
+  m_Name: 176a2bd1-21de-453c-bca3-802a5c4abdf5
   m_EditorClassIdentifier: 
   m_DisplayName: Pixels
-  m_Id: 81a4e071-10c3-4bc2-b361-804ef01ae298
-  m_OutputSize: 0
+  m_Id: 303d874c-f4ef-420f-ab71-352587bd8ad1
+  m_OutputSize: 720
   m_AspectRatio: 0
   m_ForceEvenSize: 0
   source: 1
