@@ -24,7 +24,7 @@ MonoBehaviour:
   m_Name: Recorder Settings
   m_EditorClassIdentifier: 
   m_AssetID: b9929c11cbb36894f90a78a641c673b4
-  m_CaptureEveryNthFrame: 3
+  m_CaptureEveryNthFrame: 1
   m_FrameRateMode: 1
   m_FrameRate: 24
   m_FrameRateExact: 8
@@ -59,7 +59,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_DisplayName: Pixels
   m_Id: 81a4e071-10c3-4bc2-b361-804ef01ae298
-  m_OutputSize: 0
+  m_OutputSize: 720
   m_AspectRatio: 0
   m_ForceEvenSize: 0
   source: 1
