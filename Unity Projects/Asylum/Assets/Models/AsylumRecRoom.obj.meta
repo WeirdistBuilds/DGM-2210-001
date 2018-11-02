@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: 26a2f0778766c6146a447e7d6fee8159
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: CurtainL
+    100004: CurtainR
+    100006: Door
+    100008: Lamps1
+    100010: Lamps2
+    100012: Lamps3
+    100014: Lamps4
+    100016: Lamps5
+    100018: Lamps6
+    100020: Lamps7
+    100022: Lamps8
+    100024: Room
+    100026: Stage
+    100028: Windows
+    400000: //RootNode
+    400002: CurtainL
+    400004: CurtainR
+    400006: Door
+    400008: Lamps1
+    400010: Lamps2
+    400012: Lamps3
+    400014: Lamps4
+    400016: Lamps5
+    400018: Lamps6
+    400020: Lamps7
+    400022: Lamps8
+    400024: Room
+    400026: Stage
+    400028: Windows
+    2100000: CurtainLMat
+    2100002: CurtainRMat
+    2100004: DoorMat
+    2100006: Lamps1Mat
+    2100008: Lamps2Mat
+    2100010: Lamps3Mat
+    2100012: Lamps4Mat
+    2100014: Lamps5Mat
+    2100016: Lamps6Mat
+    2100018: Lamps7Mat
+    2100020: Lamps8Mat
+    2100022: RoomMat
+    2100024: StageMat
+    2100026: WindowsMat
+    2300000: CurtainL
+    2300002: CurtainR
+    2300004: Door
+    2300006: Lamps1
+    2300008: Lamps2
+    2300010: Lamps3
+    2300012: Lamps4
+    2300014: Lamps5
+    2300016: Lamps6
+    2300018: Lamps7
+    2300020: Lamps8
+    2300022: Room
+    2300024: Stage
+    2300026: Windows
+    3300000: CurtainL
+    3300002: CurtainR
+    3300004: Door
+    3300006: Lamps1
+    3300008: Lamps2
+    3300010: Lamps3
+    3300012: Lamps4
+    3300014: Lamps5
+    3300016: Lamps6
+    3300018: Lamps7
+    3300020: Lamps8
+    3300022: Room
+    3300024: Stage
+    3300026: Windows
+    4300000: CurtainL
+    4300002: CurtainR
+    4300004: Door
+    4300006: Lamps1
+    4300008: Lamps2
+    4300010: Lamps3
+    4300012: Lamps4
+    4300014: Lamps5
+    4300016: Lamps6
+    4300018: Lamps7
+    4300020: Lamps8
+    4300022: Room
+    4300024: Stage
+    4300026: Windows
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CurtainLMat
+    second: {fileID: 2100000, guid: 8baaa8b8fbea4a5458dd8b8ce13f3b7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CurtainRMat
+    second: {fileID: 2100000, guid: 8baaa8b8fbea4a5458dd8b8ce13f3b7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoorMat
+    second: {fileID: 2100000, guid: 8baaa8b8fbea4a5458dd8b8ce13f3b7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lamps1Mat
+    second: {fileID: 2100000, guid: bf029b3147c77cb41ae8bfe2a0af6faf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lamps2Mat
+    second: {fileID: 2100000, guid: bf029b3147c77cb41ae8bfe2a0af6faf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lamps3Mat
+    second: {fileID: 2100000, guid: bf029b3147c77cb41ae8bfe2a0af6faf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lamps4Mat
+    second: {fileID: 2100000, guid: bf029b3147c77cb41ae8bfe2a0af6faf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lamps5Mat
+    second: {fileID: 2100000, guid: bf029b3147c77cb41ae8bfe2a0af6faf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lamps6Mat
+    second: {fileID: 2100000, guid: bf029b3147c77cb41ae8bfe2a0af6faf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lamps7Mat
+    second: {fileID: 2100000, guid: bf029b3147c77cb41ae8bfe2a0af6faf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lamps8Mat
+    second: {fileID: 2100000, guid: bf029b3147c77cb41ae8bfe2a0af6faf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoomMat
+    second: {fileID: 2100000, guid: bf029b3147c77cb41ae8bfe2a0af6faf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StageMat
+    second: {fileID: 2100000, guid: 8baaa8b8fbea4a5458dd8b8ce13f3b7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WindowsMat
+    second: {fileID: 2100000, guid: d7f57c8289a847e4eac0cf5bc2223294, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
