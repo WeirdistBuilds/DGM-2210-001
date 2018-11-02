@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 	public float Speed;
 	private Rigidbody rigidbody;
 	private Vector3 moveDirection;
-	private Vector3 gravFix;
+	// private Vector3 gravFix;
 	private float hMove;
 	private float vMove;
 
@@ -23,8 +23,8 @@ public class PlayerController : MonoBehaviour
 
 		moveDirection = (hMove * transform.right + vMove * transform.forward).normalized;
 		
-		gravFix = new Vector3(0, rigidbody.velocity.y, 0);
+		// gravFix = new Vector3(0, rigidbody.velocity.y, 0);
 		rigidbody.velocity = moveDirection * Speed * Time.deltaTime;
-		rigidbody.velocity += gravFix;
+		// rigidbody.velocity += gravFix;
 	}
 }

@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
@@ -15,12 +13,7 @@ public class CameraController : MonoBehaviour
 	void Start ()
 	{
 		Cursor.lockState = CursorLockMode.Locked;
-
-		if (Input.GetKey(KeyCode.Escape))
-		{
-			Cursor.lockState = CursorLockMode.None;
-			Cursor.visible = true;
-		}
+		Cursor.visible = false;
 	}
 	
 	void Update ()
@@ -31,5 +24,13 @@ public class CameraController : MonoBehaviour
 		
 		transform.localEulerAngles = new Vector3(0, rotY, 0);
 		cam.transform.localEulerAngles = new Vector3(-rotX, rotY, 0);
+		
+		if (Input.GetKey(KeyCode.Escape))
+		{
+			Cursor.lockState = CursorLockMode.None;
+			Cursor.visible = true;
+			Application.Quit();
+			Debug.Log("Quit Game");
+		}
 	}
 }
