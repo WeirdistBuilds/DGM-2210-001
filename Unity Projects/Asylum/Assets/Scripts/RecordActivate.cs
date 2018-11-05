@@ -10,12 +10,12 @@ public class RecordActivate : MonoBehaviour
 		animator = GetComponent<Animator>();
 	}
 
-	void OnCollisionEnter(Collision other)
+	void OnTriggerEnter(Collider other)
 	{
 		animator.SetBool("Activated", true);
 	}
 
-	void OnCollisionExit(Collision other)
+	void OnTriggerExit(Collider other)
 	{
 		animator.SetBool("Activated", false);
 	}
