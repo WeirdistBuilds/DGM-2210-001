@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class AnimatedProjector : MonoBehaviour {
 
@@ -27,7 +25,6 @@ public class AnimatedProjector : MonoBehaviour {
         else
         {
             frameIndex++;
-            Debug.Log(frameIndex.ToString());
         }
     }
 }
